@@ -1,0 +1,28 @@
+.container {
+  button {
+    margin-right: 15px;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .searchForm {
+      display: flex;
+      button {
+        margin-left: 15px;
+      }
+    }
+  }
+}
+.overlay {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  background: rgba(white, 0.7);
+}
